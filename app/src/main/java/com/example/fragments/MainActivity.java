@@ -15,7 +15,6 @@ public class MainActivity extends AppCompatActivity
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
         mTabLayout = findViewById(R.id.tabLayout);
         mViewPager = findViewById(R.id.viewPager);
         mTabViewPagerAdapter = new TabViewPagerAdapter(getSupportFragmentManager());
